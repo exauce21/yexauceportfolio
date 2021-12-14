@@ -8473,14 +8473,15 @@ h1, h2, h3, h4, h5,
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
-              z-index: 0; }
-              .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-                opacity: .3; }
+              z-index: 0;
+              background: #fff; 
+              }
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
           width: 50%;
-          position: relative; }
+          position: relative;
+          }
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
@@ -8499,6 +8500,7 @@ h1, h2, h3, h4, h5,
               right: 0;
               bottom: 0;
               z-index: 1;
+              margin-top: 300px;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
             width: 100%; }
@@ -8534,7 +8536,7 @@ h1, h2, h3, h4, h5,
             color: #ffbd39; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              color: #fff;
+              color: #000;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -8544,7 +8546,7 @@ h1, h2, h3, h4, h5,
           font-weight: 400; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
-              color: #fff; } }
+              color: #000; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: rgba(0, 0, 0, 0.8);
           font-weight: 400; }
@@ -9377,7 +9379,7 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
-  color: #1a1a1a; }
+  color: #999999; }
 
 .contact-section .box {
   width: 100%;
@@ -9415,10 +9417,10 @@ textarea.form-control {
   background-position: top center; }
   @media (max-width: 991.98px) {
     .contact-section .img {
-      height: 500px; } }
+      height: 100px; } }
 
 .contact-section .contact-info p a {
-  color: #fff; }
+  color: #999999; }
 
 .contact-section .contact-form {
   width: 100%; }
